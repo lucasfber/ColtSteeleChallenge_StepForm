@@ -2,6 +2,8 @@
 
 ## Step Form
 
+[Live Version](https://lucasfber.github.io/ColtSteeleChallenge_StepForm/)
+
 ![Video Thumbnail](https://img.youtube.com/vi/qGwR_DSSnuQ/0.jpg)
 
 ### More Info
