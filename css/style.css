@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.step-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.step-box .step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  text-align: center;
+  padding-top: 6px;
+}
+.step-box .step.active {
+  border: 2px solid green;
+}
+.step-box .step.fill {
+  background-color: green;
+  color: #fff;
+  border: 1px solid green;
+}
+.step-box .separator {
+  width: 43%;
+  height: 6px;
+  border: 1px solid #cbcbcb;
+}
+.step-box .separator.fill {
+  background-color: green;
+  border: none;
+}
+
+.final-message-wrapper {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.final-message-wrapper .final-message {
+  padding: 20px;
+  text-align: center;
+}
+.final-message-wrapper .final-message h1 {
+  margin-bottom: 10px;
+}
+.final-message-wrapper.active {
+  display: flex;
+}
+
+.form-step-wrapper {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.form-step-wrapper .form-step {
+  display: none;
+}
+.form-step-wrapper .form-step .form-inner {
+  padding: 2rem;
+}
+.form-step-wrapper .form-step .form-inner h3 {
+  margin-bottom: 20px;
+}
+.form-step-wrapper .form-step .form-inner label {
+  display: block;
+  margin-bottom: 10px;
+  color: #222;
+}
+.form-step-wrapper .form-step .form-inner label input {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid #ccc;
+  padding: 5px;
+}
+.form-step-wrapper .form-step.active {
+  display: flex;
+}
+
+.btn-wrapper {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-next {
+  border: none;
+  background-color: #33b9e6;
+  padding: 6px 16px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btn-previous {
+  border: 1px solid #ccc;
+  padding: 5px 16px;
+  color: black;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */

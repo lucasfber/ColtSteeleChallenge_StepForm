@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="step-box">
+        <div class="step active">1</div>
+        <div class="separator"></div>
+        <div class="step">2</div>
+        <div class="separator"></div>
+        <div class="step">3</div>
+      </div>
+      <div class="form-step-wrapper">
+        <form class="form-step active">
+          <div class="form-inner">
+            <h3>Tell us your name!</h3>
+            <label for="name"
+              >Name:
+              <input type="text" name="name" />
+            </label>
+            <div class="btn-wrapper">
+              <button class="btn-next">Next</button>
+            </div>
+          </div>
+        </form>
+        <form class="form-step">
+          <div class="form-inner">
+            <h3>Now your best email!</h3>
+            <label for="emai"
+              >Email:
+              <input type="email" name="email" />
+            </label>
+            <div class="btn-wrapper">
+              <button class="btn-previous">Back</button>
+              <button class="btn-next">Next</button>
+            </div>
+          </div>
+        </form>
+        <form class="form-step">
+          <div class="form-inner">
+            <h3>Finally, choose a strong password and after confirm it.</h3>
+            <label for="password"
+              >Password:<input type="password" name="password"
+            /></label>
+            <label for="confirm-password"
+              >Confirm psassword:
+              <input type="password" name="confirm-password" />
+            </label>
+            <div class="btn-wrapper">
+              <button class="btn-previous">Back</button>
+              <button class="btn-next">Next</button>
+            </div>
+          </div>
+        </form>
+        <div class="final-message-wrapper">
+          <div class="final-message">
+            <h1>Congratulations!</h1>
+            <p>You've done your registration!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--       <div class="form-step hide">
+        
+      </div>
+      <div class="form-step hide">
+        
+    </div> -->
+    <script src="index.js"></script>
+  </body>
+</html>
