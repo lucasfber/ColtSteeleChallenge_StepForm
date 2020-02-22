@@ -5,7 +5,7 @@
 ![Video Thumbnail](https://img.youtube.com/vi/qGwR_DSSnuQ/0.jpg)
 
 ### More Info
-[Video](http://www.youtube.com/watch?v=https://www.youtube.com/watch?v=qGwR_DSSnuQ)
+[Video](https://www.youtube.com/watch?v=qGwR_DSSnuQ)
 
 ### Rules
 
